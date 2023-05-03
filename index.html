@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adivina el número</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Adivina el número</h1>
+    <p class="text-center">Piensa en un número del 1 al 100 y trataremos de adivinarlo.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">¿Es este tu número?</h5>
+            <p class="card-text text-center" id="numero"></p>
+            <div class="text-center">
+              <button class="btn btn-primary" id="si">Sí</button>
+              <button class="btn btn-secondary" id="no">No</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-4">
+        <button class="btn btn-success btn-block" id="volver">Iniciar Juego</button>
+      </div>
+    </div>
+  </div>
+  <script src="adivina.js"></script>
+</body>
+</html>
